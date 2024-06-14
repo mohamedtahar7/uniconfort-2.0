@@ -1,5 +1,13 @@
-import Image from "next/image";
+import BrowseProducts from "@/components/main/BrowseProducts";
+import Hero from "@/components/main/Hero";
+import Navbar from "@/components/main/Navbar";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Navbar />
+      <Hero />
+      <BrowseProducts />
+    </main>
+  );
 }
